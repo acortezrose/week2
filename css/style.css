@@ -1,0 +1,51 @@
+body {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+footer {
+	bottom: 0px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+nav {
+	padding: 0em 0em 2em 0em;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	padding: 1em;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li:hover, nav li a:hover, nav li a.current{
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+}
+
+.brand {
+	font-size: 2em;
+}
+
+.skip{
+	position: relative;
+	left: -2000px;
+}
+
+.skip:focus {
+	position: static;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
